@@ -12,11 +12,11 @@ namespace McGyver
         }
         public Program()
         {
-            for (char i = 'A'; i <= 'Z' ; i++)
+            /*for (char i = 'A'; i <= 'Z' ; i++)
             {
                 Console.Write(i);
             }
-            Console.WriteLine();
+            Console.WriteLine();*/
             solve();
         }
         void solve()

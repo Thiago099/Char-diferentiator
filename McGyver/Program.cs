@@ -23,18 +23,18 @@ namespace McGyver
         {
             solve(0, data.GetLength(0)) ;
         }
-        void solve(int esquerda,int direita)
+        void solve(int right,int left)
         {
-            int meio = (esquerda + direita) / 2;
-            if (direita-esquerda<=1)
+            int middle = (right + left) / 2;
+            if (left - right <= 1)
             {
-                Console.WriteLine($"return '{data[meio,0]}';");
+                Console.WriteLine($"return '{data[middle, 0]}';");
                 return;
             }
-            Console.WriteLine($"if(m < '{data[meio,0]}')");
-            solve(esquerda,meio);
+            Console.WriteLine($"if(m < '{data[middle, 0]}')");
+            solve(right, middle);
             Console.WriteLine("else");
-            solve(meio, direita);
+            solve(middle, left);
         }
     }
 

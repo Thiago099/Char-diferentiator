@@ -6,10 +6,7 @@ namespace McGyver
     {
         char[,] data = { { 'A', 'C' }, { 'D', 'F' }, { 'G', 'K' },{ 'a','c'},{'d','f'},{'g','i' } };
 
-        static void Main(string[] args)
-        {
-            new Program();
-        }
+        
         public Program()
         {
             /*for (char i = 'A'; i <= 'Z' ; i++)
@@ -21,7 +18,8 @@ namespace McGyver
         }
         void solve()
         {
-            solve(0, data.GetLength(0),true) ;
+            Console.Write("     ");
+            solve(0, data.GetLength(0),false) ;
         }
         void solve(int right,int left,bool line)
         {
@@ -38,6 +36,7 @@ namespace McGyver
             Console.Write("else ");
             solve(middle, left,false);
         }
+        static void Main(string[] args)=>new Program();
         /*
          * implementation of the functional algorithim without identation
         void solve(int right, int left)

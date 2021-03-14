@@ -1,5 +1,5 @@
 # Char-diferentiator-generator
-Given char arrays it generates a if sequence that diferentiate those chars by comparing the start of those char arrays
+Given chars it generates a if sequence that diferentiate those chars by comparing the start of those char sequences
 
 ## usage
 either copy a section from the displayed char list or type the start and the end of the section

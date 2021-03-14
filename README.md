@@ -9,13 +9,13 @@ you can also type the representant char and it's section and its assingned in th
 
 AZ
 
-az
+abzdefghijklmnopqrstuvxwyz
 
 09
 
 \# !"#$%&'()*+,-./
 
-\# :;<=>?@
+\# :@
 
 \# [\]^_`
 

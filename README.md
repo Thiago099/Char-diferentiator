@@ -8,11 +8,17 @@ you can also type the representant char and it's section and its assingned in th
 ## example
 
 AZ
+
 az
+
 09
+
 \# !"#$%&'()*+,-./
+
 \# :;<=>?@
+
 \# [\]^_`
+
 \# {|}~
 
 gives you

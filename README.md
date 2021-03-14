@@ -10,10 +10,10 @@ you can also type the representant char and it's section and its assingned in th
 AZ
 az
 09
-# !"#$%&'()*+,-./
-# :;<=>?@
-# [\]^_`
-# {|}~
+\# !"#$%&'()*+,-./
+\# :;<=>?@
+\# [\]^_`
+\# {|}~
 
 gives you
 ```

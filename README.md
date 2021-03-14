@@ -9,7 +9,7 @@ you can also type the representant char and it's range to assing the return
 
 AZ
 
-abzdefghijklmnopqrstuvxwyz
+abcdefghijklmnopqrstuvxwyz
 
 09
 

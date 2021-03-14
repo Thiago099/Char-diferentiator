@@ -34,5 +34,7 @@ else if(m < '{') return 'a';
 else             return '#';
 ```
 ## commands
+
 cls : clear 
+
 switch : generate switch case for the output

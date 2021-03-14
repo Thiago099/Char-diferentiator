@@ -22,7 +22,7 @@ az
 \# {|}~
 
 gives you
-```C#
+```javascript
      if(m < 'A')
      if(m < '0') return '#';
 else if(m < ':') return '0';

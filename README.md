@@ -3,7 +3,7 @@ Given char arrays it generates a if sequence that diferentiate those chars by co
 
 ## usage
 either copy a section from the displayed char list or type the start and the end of the section
-you can also type the representant char and it's section and its assingned in the return
+you can also type the representant char and it's range to assing the return
 
 ## example
 

@@ -159,7 +159,9 @@ static class ListExt// make this class somehow more responsable for the word
     public static bool Append<T>(this List<T> list, T value)
         where T : IComparable<T>
     {
+        
         int l = 0;
+
         int r = list.Count() - 1;
 
         int c = 0;
